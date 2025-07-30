@@ -19,7 +19,7 @@ void testPrintColorMap() {
     assert(result == 25);
     assert(output.find("White | Blue"), std::string::npos); 
     assert(output.find("Violet | Slate"), std::string::npos); 
-    assert(output.find("Red | Orange"), std::string::npos); // Check a known combo
-    assert(output.find("Yellow | Brown"), std::string::npos); // Check last combo
+    assert(output.find("Red | Orange"), std::string::npos); 
+    assert(output.find("Yellow | Brown"), std::string::npos); 
     std::cout << "All is well (maybe!)\n";
 }
