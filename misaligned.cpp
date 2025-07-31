@@ -17,5 +17,9 @@ void testPrintColorMap() {
     std::cout << "\nPrint color map test\n"; 
     int result = printColorMap();
     assert(result == 25);
+    assert(output.find("White | Blue") std::string::npos); 
+    assert(output.find("Violet | Slate") std::string::npos); 
+    assert(output.find("Red | Orange") std::string::npos); 
+    assert(output.find("Yellow | Brown") std::string::npos); 
     std::cout << "All is well (maybe!)\n";
 }
